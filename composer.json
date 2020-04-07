@@ -1,0 +1,22 @@
+{
+    "name": "min-radish/php-common",
+    "description": "PHP常见的处理方法",
+    "keywords": ["PHP", "function", "helper"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Radish",
+            "email": "1004622952@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "min-radish/php-curl": "~1.2"
+    },
+    "autoload": {
+        "psr-4": {
+          "Radish\\Helper\\": "src/"
+        }
+    }
+}
